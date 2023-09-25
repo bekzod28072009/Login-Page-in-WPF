@@ -67,7 +67,7 @@
                         </Grid.ColumnDefinitions>
 
                         <Image Source="/Images/Emailjn.png" Height="20"/>
-                        <TextBlock x:Name="textEmail" MouseDown="textEmail_MouseDown" Text="Email" Style="{StaticResource textHint}" Grid.Column="1" HorizontalAlignment="Right" Width="294"/>
+                        <TextBlock x:Name="textEmail" MouseDown="textEmail_MouseDown" Text="Email" Style="{StaticResource textHint}"/>
                         <TextBox x:Name="txtEmail" TextChanged="txtEmail_TextChanged" Style="{StaticResource textBox}"/>
                     </Grid>
                 </Border>
